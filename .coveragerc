@@ -1,0 +1,16 @@
+[paths]
+source =
+    src
+    */site-packages
+    *\site-packages
+
+[run]
+branch = true
+parallel = true
+source =
+    gruik
+    tests
+
+[report]
+show_missing = true
+precision = 2
